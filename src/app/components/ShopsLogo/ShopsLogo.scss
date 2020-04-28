@@ -1,0 +1,47 @@
+%position-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin logo-size ($width, $heigth) {
+    width: $width;
+    height: $heigth;
+}
+
+
+.book-online {
+    &__shops-block {
+        width: 100%;
+        height: 235px;
+        display: flex;
+
+        &_logo {
+            width: 25%;
+            height: 100%;
+            @extend %position-center;
+        }
+    }
+}
+
+.shop-logo {
+    &_six {
+        @include logo-size (160px, 106px)
+    }
+
+    &_seven {
+        @include logo-size (186px, 64px)
+    }
+
+    &_eight {
+        @include logo-size (146px, 70px)
+    }
+
+    &_nine {
+        @include logo-size (120px, 96px)
+    }
+
+    &_ten {
+        @include logo-size (76px, 86px)
+    }
+}

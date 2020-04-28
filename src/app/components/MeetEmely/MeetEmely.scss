@@ -1,0 +1,102 @@
+@import "../../../sass/mixin.scss";
+
+.meet-emely {
+    width: 100%;
+    height: 100%;
+
+    &__header {
+        width: 100%;
+        height: 228px;
+        @extend %position-center;
+        background-color: var(--light-grey-color);
+        color: var(--text-color);
+        font-size: 75px;
+    }
+
+    &__content {
+        width: 100%;
+        height: 1290px;
+
+        &_wrapper {
+            position: relative;
+            width: 1080px;
+            height: 100%;
+            margin: auto;
+        }
+    }
+
+    &__blue-box {
+        position: absolute;
+        z-index: 2;
+        margin-top: 120px;
+        width: 665px;
+        height: 504px;
+        background-color: var(--light-blue-color);
+
+        &_wrapper {
+            width: 450px;
+            margin: auto;
+            padding-top: 96px;
+        }
+
+        &_description {
+            margin-bottom: 23px;
+
+            &_block {
+                display: block;
+                @extend %middle-font;
+            }
+        }
+
+        &_text {
+            @extend %text-font;
+        }
+
+        &_button {
+            @extend %blue-box-yellow-button;
+        }
+    }
+
+    &__emely-sitting {
+        position: absolute;
+        width: 692px;
+        height: 480px;
+        right: 0;
+        top: 372px;
+        z-index: 1;
+        background-image: url(../../../images/emily_sitting.webp);
+        @extend %background-position-center;
+    }
+
+    &__my-vision {
+        position: absolute;
+        width: 670px;
+        height: 389px;
+        left: 100px;
+        top: 770px;
+        z-index: 0;
+        background-color: var(--yellow-box-color);
+
+        &_wrapper {
+            width: 450px;
+            height: 100%;
+            margin: auto;
+        }
+
+        &_header {
+            margin: 75px 0 22px 0;
+            @extend %middle-font;
+        }
+
+        &_text {
+            @extend %text-font;
+        }
+    }
+
+    &__jumping-image {
+        width: 100%;
+        height: 712px;
+        background-image: url(../../../images/legs-jump.webp);
+        @extend %background-position-center;
+    }
+}
