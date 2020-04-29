@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack --mode=production",
     "dev": "./node_modules/.bin/webpack --mode=development --watch",
-    "start:server": "http-server -c-1 ./",
+    "server": "http-server -c-1 ./",
     "start:react": "npm i -s react react-dom"
   },
   "author": "",

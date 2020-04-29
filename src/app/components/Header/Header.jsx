@@ -17,6 +17,13 @@ export class Header extends Component {
               alt=""
             />
             <span className="logo-content__text">Emily Fox Fitness</span>
+            <div className="logo-content__mobile-menu">
+              <div className="logo-content__mobile-menu_block">
+                <span className="logo-content__mobile-menu_item"></span>
+                <span className="logo-content__mobile-menu_item"></span>
+                <span className="logo-content__mobile-menu_item"></span>
+              </div>
+            </div>
           </div>
           <nav className="header__logo-block__link-content link-content">
             <Link to="/">
