@@ -1,23 +1,4 @@
-%header-link {
-  padding: 0 15px 3px 15px;
-  font-size: 16px;
-  cursor: pointer;
-  color: var(--text-color);
-  transition: 1s ease 0.25s;
-
-  &:hover {
-    color: #89aeb3;
-  }
-}
-
-$mobile-max: 760px;
-$tablet-max: 1200px;
-
-@mixin mobile {
-  @media (max-width: 600px) {
-    @content;
-  }
-}
+@import "../../../sass/mixin.scss";
 
 .header {
   width: 100%;
