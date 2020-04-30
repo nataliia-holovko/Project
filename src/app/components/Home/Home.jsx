@@ -44,7 +44,7 @@ export class Home extends Component {
               </div>
             </div>
           </div>
-          <div></div>
+          <div className="description-content__mobile"></div>
           <div className="description-content__final-blocks final-blocks">
             <div className="final-blocks__block final-blocks__discover-foxfit">
               <span>Discover FoxFit</span>
@@ -77,6 +77,7 @@ export class Home extends Component {
                 </div>
               </div>
             </div>
+            <div className="trainer-content__image-box_mobile"></div>
           </div>
         </section>
         <section className="introducing">
@@ -109,6 +110,7 @@ export class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="introducing__image_mobile"></div>
         </section>
         <section className="book-online">
           <div className="book-online__wrapper">

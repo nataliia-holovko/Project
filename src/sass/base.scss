@@ -1,3 +1,5 @@
+@import "../sass/mixin.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -50,14 +52,12 @@ button {
 }
 
 .page {
-
   margin: auto;
 }
 
-
 :root {
   --text-color: #253c57;
-  --dark-text-color: #18293D;
+  --dark-text-color: #18293d;
   --yellow-box-color: rgba(238, 255, 66, 1);
   --light-blue-color: rgba(190, 225, 230, 1);
   --light-grey-color: rgb(248, 246, 246);
