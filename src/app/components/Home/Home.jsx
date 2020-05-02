@@ -153,6 +153,7 @@ export class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="book-online__app-service_mobile"></div>
         </section>
       </div>
     );

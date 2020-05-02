@@ -31,7 +31,7 @@ export class ShopsLogo extends Component {
             className="shop-logo_nine"
             src="./src/images/logos_fitness_trainer-09.webp"
             alt=""
-          />{" "}
+          />
         </div>
         <div className="book-online__shops-block_logo">
           <img
@@ -39,6 +39,49 @@ export class ShopsLogo extends Component {
             src="./src/images/logos_fitness_trainer-10.webp"
             alt=""
           />
+        </div>
+        <div className="book-online__mobile">
+          <div className="book-online__mobile_blocks">
+            <div className="book-online__mobile_blocks_logo">
+              <img
+                className="shop-logo_eight"
+                src="./src/images/logos_fitness_trainer-08.webp"
+                alt=""
+              />
+            </div>
+            <div className="book-online__mobile_blocks_logo">
+              <img
+                className="shop-logo_ten"
+                src="./src/images/logos_fitness_trainer-10.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="book-online__mobile_blocks">
+            <div className="book-online__mobile_blocks_logo">
+              <img
+                className="shop-logo_six"
+                src="./src/images/logos_fitness_trainer-06.webp"
+                alt=""
+              />
+            </div>
+            <div className="book-online__mobile_blocks_logo">
+              <img
+                className="shop-logo_nine"
+                src="./src/images/logos_fitness_trainer-09.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="book-online__mobile_blocks">
+            <div className="book-online__mobile_blocks_logo-last">
+              <img
+                className="shop-logo_seven"
+                src="./src/images/logos_fitness_trainer-07.webp"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     );
