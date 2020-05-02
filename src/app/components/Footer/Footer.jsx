@@ -64,7 +64,9 @@ export class Footer extends Component {
           </div>
         </div>
         <div className="footer__yellow-block">
-          © 2023 by Emily Fox Fitness. Proudly created with Wix.com
+          <p className="footer__yellow-block_text">
+            © 2023 by Emily Fox Fitness. Proudly created with Wix.com
+          </p>
         </div>
       </footer>
     );
