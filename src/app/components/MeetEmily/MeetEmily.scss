@@ -5,12 +5,7 @@
     height: 100%;
 
     &__header {
-        width: 100%;
-        height: 228px;
-        @extend %position-center;
-        background-color: var(--light-grey-color);
-        color: var(--text-color);
-        font-size: 75px;
+        @extend %grey-header;
 
         @include mobile {
             font-size: 34px;

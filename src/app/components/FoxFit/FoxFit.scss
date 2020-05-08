@@ -5,29 +5,33 @@
     height: 100%;
 
     &__header {
-        width: 100%;
-        height: 228px;
-        @extend %position-center;
-        background-color: var(--light-grey-color);
-        color: var(--text-color);
-        font-size: 75px;
+        @extend %grey-header;
 
         @include mobile {
             font-size: 34px;
             height: 114px;
         }
-
     }
 
     &__content {
         width: 100%;
         height: 1270px;
 
+        @include mobile {
+            height: 1341px;
+        }
+
+
         &_wrapper {
             position: relative;
             width: 980px;
             height: 100%;
             margin: auto;
+
+            @include mobile {
+                width: 100%;
+            }
+
         }
     }
 
@@ -39,21 +43,45 @@
         height: 518px;
         background-color: var(--light-blue-color);
 
+        @include mobile {
+            width: 100%;
+            position: relative;
+            margin-top: 0;
+            height: auto;
+        }
+
         &_wrapper {
             width: 570px;
             margin: auto;
             padding-top: 76px;
+
+            @include mobile {
+                width: 300px;
+                padding-top: 34px;
+                padding-bottom: 10px;
+            }
         }
 
         &_description {
             margin-bottom: 21px;
             @extend %middle-font;
+
+            @include mobile {
+                margin-bottom: 37px;
+                font-size: 19px;
+                width: 259px;
+            }
         }
 
         &_text,
         &_conclusion {
             @extend %text-font;
             margin-bottom: 28px;
+
+            @include mobile {
+                margin-bottom: 24px;
+                font-size: 15px;
+            }
         }
     }
 
@@ -66,22 +94,44 @@
         z-index: 1;
         background-color: var(--yellow-box-color);
 
+        @include mobile {
+            position: relative;
+            width: 100%;
+            height: auto;
+            top: 0;
+            z-index: 0;
+            padding-top: 49px;
+        }
 
         &_wrapper {
             width: 480px;
             height: 100%;
             margin: auto;
 
+            @include mobile {
+                width: 310px;
+            }
+
         }
 
         &_header {
             margin: 77px 0 59px 0;
             @extend %middle-font;
+
+            @include mobile {
+                margin: 0px 0px 48px 0;
+                font-size: 19px;
+            }
         }
 
         &_content {
             width: 100%;
             height: 390px;
+
+            @include mobile {
+                height: auto;
+
+            }
         }
 
         &_content-blocks {
@@ -89,10 +139,22 @@
             height: 130px;
             display: flex;
 
+
+            @include mobile {
+                flex-direction: column;
+                margin: auto;
+                width: 70%;
+                height: 240px;
+            }
+
             &_block {
                 width: 50%;
                 height: 100%;
                 display: flex;
+
+                @include mobile {
+                    width: 100%;
+                }
             }
         }
 
@@ -101,12 +163,18 @@
             justify-content: start;
             width: 45%;
             height: 100%;
+
+            @include mobile {
+                align-items: flex-start;
+                width: 50%;
+            }
         }
 
         &_item-img {
             width: 54px;
             height: 54px;
             border: 1px solid teal;
+
         }
 
         &_item-text {
@@ -116,8 +184,12 @@
             @extend %text-font;
             padding-left: 10px;
 
-
-
+            @include mobile {
+                align-items: flex-start;
+                font-size: 15px;
+                width: 50%;
+                padding-left: 20px;
+            }
         }
     }
 
@@ -130,5 +202,9 @@
         height: 688px;
         background-image: url(../../../images/work-out.webp);
         @extend %background-position-center;
+
+        @include mobile {
+            height: 230px;
+        }
     }
 }
