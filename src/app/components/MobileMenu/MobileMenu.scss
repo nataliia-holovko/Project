@@ -1,0 +1,86 @@
+@import "../../../sass/mixin.scss";
+
+.mobile-menu {
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+
+  &__wrapper {
+    width: 100%;
+    padding: 63px 25px 0 25px;
+
+  }
+
+  &__close {
+    width: 22px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    @extend %position-center;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+
+  &__link-content {
+    position: relative;
+    padding-top: 6px;
+    width: 100%;
+
+    &_item {
+      width: 100%;
+      height: 65px;
+      @extend %position-center;
+      font-size: 18px;
+      color: var(--text-color);
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+.logo-content__mobile-menu {
+  display: none;
+
+  @include mobile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    padding-right: 20px;
+
+  }
+
+  &_block {
+    width: 22px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &:hover {
+      .mobile-menu {
+        visibility: visible;
+        opacity: 1;
+        background-color: white;
+      }
+    }
+  }
+
+  &_item {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(65, 65, 65, 1);
+    border-radius: 2px;
+  }
+}

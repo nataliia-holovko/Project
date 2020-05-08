@@ -9,7 +9,7 @@ import { Footer } from "./components/Footer/Footer.jsx";
 
 import { Home } from "./components/Home/Home.jsx";
 
-import { MeetEmely } from "./components/MeetEmely/MeetEmely.jsx";
+import { MeetEmily } from "./components/MeetEmily/MeetEmily.jsx";
 import { FoxFit } from "./components/FoxFit/FoxFit.jsx";
 import { Pricing } from "./components/Pricing/Pricing.jsx";
 
@@ -24,7 +24,7 @@ class App extends React.Component {
               <Home />
             </Route>
             <Route path="/meet">
-              <MeetEmely />
+              <MeetEmily />
             </Route>
             <Route path="/foxfit">
               <FoxFit />

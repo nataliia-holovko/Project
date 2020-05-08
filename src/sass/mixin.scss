@@ -174,8 +174,7 @@
   }
 }
 
-$mobile-max: 760px;
-$tablet-max: 1200px;
+
 
 @mixin mobile {
   @media (max-width: 600px) {
