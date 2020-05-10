@@ -36,6 +36,7 @@ export class Pricing extends Component {
                   <button className="membership-box__main-block_button">
                     Select
                   </button>
+                  <div className="membership-box__main-block_pin">v</div>
                 </div>
                 <div className="membership-box__benefit-block">
                   <span className="membership-box__benefit-block_content">
@@ -73,6 +74,7 @@ export class Pricing extends Component {
                   <button className="membership-box__main-block_button">
                     Select
                   </button>
+                  <div className="membership-box__main-block_pin">v</div>
                 </div>
                 <div className="membership-box__benefit-block benefit-block_best">
                   <span className="membership-box__benefit-block_content">
@@ -108,6 +110,7 @@ export class Pricing extends Component {
                   <button className="membership-box__main-block_button">
                     Select
                   </button>
+                  <div className="membership-box__main-block_pin">v</div>
                 </div>
                 <div className="membership-box__benefit-block">
                   <span className="membership-box__benefit-block_content">
