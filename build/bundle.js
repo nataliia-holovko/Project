@@ -307,7 +307,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".mobile-menu__close, .mobile-menu__link-content_item {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.mobile-menu {\n  visibility: hidden;\n  opacity: 0;\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 2;\n  top: 0;\n  left: 0; }\n  .mobile-menu__wrapper {\n    width: 100%;\n    padding: 63px 25px 0 25px; }\n  .mobile-menu__close {\n    width: 22px;\n    height: 20px;\n    top: 0;\n    right: 0;\n    position: absolute;\n    border: 1px solid black;\n    cursor: pointer; }\n  .mobile-menu__link-content {\n    position: relative;\n    padding-top: 6px;\n    width: 100%; }\n    .mobile-menu__link-content_item {\n      width: 100%;\n      height: 65px;\n      font-size: 18px;\n      color: var(--text-color);\n      text-decoration: none; }\n\n.logo-content__mobile-menu {\n  display: none; }\n  @media (max-width: 600px) {\n    .logo-content__mobile-menu {\n      display: flex;\n      justify-content: flex-end;\n      align-items: center;\n      width: 30%;\n      height: 100%;\n      padding-right: 20px; } }\n  .logo-content__mobile-menu_block {\n    width: 22px;\n    height: 20px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    cursor: pointer; }\n    .logo-content__mobile-menu_block:hover .mobile-menu {\n      visibility: visible;\n      opacity: 1;\n      background-color: white; }\n  .logo-content__mobile-menu_item {\n    width: 100%;\n    height: 2px;\n    background-color: #414141;\n    border-radius: 2px; }\n", ""]);
+exports.push([module.i, ".mobile-menu__close, .mobile-menu__link-content_item {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.mobile-menu {\n  visibility: hidden;\n  opacity: 0;\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 2;\n  top: 0;\n  left: 0; }\n  .mobile-menu.active {\n    visibility: visible;\n    opacity: 1;\n    background-color: white; }\n  .mobile-menu__wrapper {\n    width: 100%;\n    padding: 63px 25px 0 25px; }\n  .mobile-menu__close {\n    width: 22px;\n    height: 20px;\n    top: 0;\n    right: 0;\n    position: absolute;\n    border: 1px solid black;\n    cursor: pointer; }\n  .mobile-menu__link-content {\n    position: relative;\n    padding-top: 6px;\n    width: 100%; }\n    .mobile-menu__link-content_item {\n      width: 100%;\n      height: 65px;\n      font-size: 18px;\n      color: var(--text-color);\n      text-decoration: none; }\n\n.logo-content__mobile-menu {\n  display: none; }\n  @media (max-width: 600px) {\n    .logo-content__mobile-menu {\n      display: flex;\n      justify-content: flex-end;\n      align-items: center;\n      width: 30%;\n      height: 100%;\n      padding-right: 20px; } }\n  .logo-content__mobile-menu_block {\n    width: 22px;\n    height: 20px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    cursor: pointer; }\n  .logo-content__mobile-menu_item {\n    width: 100%;\n    height: 2px;\n    background-color: #414141;\n    border-radius: 2px; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -325,7 +325,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".pricing__header {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.pricing__header {\n  width: 100%;\n  height: 228px;\n  background-color: var(--light-grey-color);\n  color: var(--text-color);\n  font-size: 50px; }\n\n.pricing {\n  width: 100%;\n  height: 100%; }\n  @media (max-width: 600px) {\n    .pricing__header {\n      font-size: 25px;\n      height: 114px;\n      text-align: center; } }\n  @media (max-width: 600px) {\n    .pricing__header_text {\n      width: 85%; } }\n  .pricing__paragraph {\n    width: 100%;\n    height: 140px;\n    padding-top: 30px; }\n    @media (max-width: 600px) {\n      .pricing__paragraph {\n        height: 100px;\n        padding-top: 10px; } }\n    .pricing__paragraph_text {\n      width: 30%;\n      margin: auto;\n      font-size: 18px;\n      text-align: center; }\n      @media (max-width: 600px) {\n        .pricing__paragraph_text {\n          margin: 20px;\n          font-size: 15px;\n          width: 80%;\n          text-align: start;\n          line-height: 1.6; } }\n  .pricing__pricing-block {\n    width: 100%;\n    height: 723px; }\n    @media (max-width: 600px) {\n      .pricing__pricing-block {\n        height: auto; } }\n    .pricing__pricing-block_wrapper {\n      width: 980px;\n      height: 100%;\n      margin: auto;\n      padding: 20px 0;\n      background-color: white; }\n      @media (max-width: 600px) {\n        .pricing__pricing-block_wrapper {\n          width: 100%;\n          padding: 10px; } }\n    .pricing__pricing-block_content {\n      width: 100%;\n      height: 100%;\n      display: grid;\n      flex-wrap: wrap;\n      grid-template-columns: repeat(auto-fit, minmax(322px, 1fr));\n      grid-auto-rows: 1fr;\n      margin: 0 auto;\n      max-width: 1542px; }\n      @media (max-width: 600px) {\n        .pricing__pricing-block_content {\n          grid-template-columns: 1fr; } }\n\n.membership-box {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 15px;\n  align-items: center;\n  min-width: 292px;\n  max-width: 454px; }\n  @media (max-width: 600px) {\n    .membership-box:nth-child(1) {\n      grid-row-start: 2; } }\n  .membership-box__main-block {\n    width: 100%;\n    height: 60%;\n    padding: 30px;\n    text-align: center;\n    color: #253c57;\n    position: relative;\n    border: 1px solid #253c57;\n    border-bottom: none !important; }\n    @media (max-width: 600px) {\n      .membership-box__main-block {\n        height: auto;\n        border-bottom: 1px solid #253c57 !important;\n        padding-bottom: 45px; } }\n    .membership-box__main-block_top-button {\n      position: absolute;\n      width: 80px;\n      height: 30px;\n      left: 50%;\n      transform: translateX(-50%);\n      top: -15px;\n      color: #253c57;\n      background-color: #eeff42;\n      font-size: 14px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_top-button {\n          width: 78px;\n          height: 25px;\n          top: -12px;\n          font-size: 12px; } }\n    .membership-box__main-block_header {\n      font-size: 20px;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      font-weight: bold;\n      margin-bottom: 12px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_header {\n          font-size: 18px;\n          margin-bottom: 5px; } }\n    .membership-box__main-block_price-block {\n      display: flex;\n      height: 108px;\n      margin-bottom: 20px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_price-block {\n          height: 50px;\n          align-items: flex-end;\n          margin-bottom: 3px; } }\n    .membership-box__main-block_item {\n      width: 25%;\n      font-size: 18px;\n      font-weight: bold;\n      text-align: end; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_item {\n          font-size: 14px;\n          width: 42%; } }\n    .membership-box__main-block_price {\n      width: 75%;\n      text-align: start;\n      font-size: 110px;\n      font-weight: bold;\n      margin-top: -15px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_price {\n          font-size: 40px;\n          margin-bottom: -8px;\n          width: 58%; } }\n    .membership-box__main-block_first-text {\n      display: block;\n      height: 17px;\n      font-size: 12px;\n      font-weight: bold;\n      margin-bottom: 12px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_first-text {\n          font-size: 11px;\n          margin-bottom: 22px;\n          height: 11px; } }\n    .membership-box__main-block_text {\n      display: block;\n      font-size: 14px;\n      margin-bottom: 28px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_text {\n          font-size: 12px;\n          margin-bottom: 12px; } }\n    .membership-box__main-block_small-text {\n      display: block;\n      font-size: 12px;\n      height: 16px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_small-text {\n          font-size: 11px;\n          height: 13px;\n          margin-bottom: 16px; } }\n    .membership-box__main-block_button {\n      position: absolute;\n      bottom: 30px;\n      left: 30px;\n      width: 235px;\n      height: 48px;\n      display: inline-block;\n      text-align: center;\n      cursor: pointer;\n      font-size: 18px;\n      color: #253c57;\n      background-color: #a1c7cc;\n      border-width: 0px;\n      border-radius: 0px; }\n      .membership-box__main-block_button:hover {\n        opacity: 0.6; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_button {\n          position: relative;\n          bottom: 0;\n          left: 0;\n          width: 100%;\n          margin: auto; } }\n    .membership-box__main-block_pin {\n      display: none; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_pin {\n          position: absolute;\n          bottom: 10px;\n          left: 50%;\n          transform: translateX(-50%);\n          display: inline-block;\n          border: 0;\n          cursor: pointer;\n          width: 24px;\n          height: 24px;\n          text-align: center;\n          transition: transform .4s; } }\n  .membership-box__benefit-block {\n    width: 100%;\n    height: 40%;\n    border: 1px solid #253c57;\n    padding: 30px; }\n    @media (max-width: 600px) {\n      .membership-box__benefit-block {\n        display: none;\n        height: auto; } }\n    .membership-box__benefit-block_content {\n      display: block;\n      text-align: center;\n      font-size: 18px;\n      padding: 9px; }\n\n.main-block_best,\n.benefit-block_best {\n  background-color: #bee1e6;\n  border-left: none;\n  border-right: none; }\n  @media (max-width: 600px) {\n    .main-block_best,\n    .benefit-block_best {\n      border: 1px solid #253c57; } }\n", ""]);
+exports.push([module.i, ".pricing__header {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.pricing__header {\n  width: 100%;\n  height: 228px;\n  background-color: var(--light-grey-color);\n  color: var(--text-color);\n  font-size: 50px; }\n\n.pricing {\n  width: 100%;\n  height: 100%; }\n  @media (max-width: 600px) {\n    .pricing__header {\n      font-size: 25px;\n      height: 114px;\n      text-align: center; } }\n  @media (max-width: 600px) {\n    .pricing__header_text {\n      width: 85%; } }\n  .pricing__paragraph {\n    width: 100%;\n    height: 140px;\n    padding-top: 30px; }\n    @media (max-width: 600px) {\n      .pricing__paragraph {\n        height: 100px;\n        padding-top: 10px; } }\n    .pricing__paragraph_text {\n      width: 30%;\n      margin: auto;\n      font-size: 18px;\n      text-align: center; }\n      @media (max-width: 600px) {\n        .pricing__paragraph_text {\n          margin: 20px;\n          font-size: 15px;\n          width: 80%;\n          text-align: start;\n          line-height: 1.6; } }\n  .pricing__pricing-block {\n    width: 100%;\n    height: 723px; }\n    @media (max-width: 600px) {\n      .pricing__pricing-block {\n        height: auto; } }\n    .pricing__pricing-block_wrapper {\n      width: 980px;\n      height: 100%;\n      margin: auto;\n      padding: 20px 0;\n      background-color: white; }\n      @media (max-width: 600px) {\n        .pricing__pricing-block_wrapper {\n          width: 100%;\n          padding: 10px; } }\n    .pricing__pricing-block_content {\n      width: 100%;\n      height: 100%;\n      display: grid;\n      flex-wrap: wrap;\n      grid-template-columns: repeat(auto-fit, minmax(322px, 1fr));\n      grid-auto-rows: 1fr;\n      margin: 0 auto;\n      max-width: 1542px; }\n      @media (max-width: 600px) {\n        .pricing__pricing-block_content {\n          grid-template-columns: 1fr; } }\n\n.membership-box {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 15px;\n  align-items: center;\n  min-width: 292px;\n  max-width: 454px; }\n  @media (max-width: 600px) {\n    .membership-box:nth-child(1) {\n      grid-row-start: 2; } }\n  .membership-box__main-block {\n    width: 100%;\n    height: 60%;\n    padding: 30px;\n    text-align: center;\n    color: #253c57;\n    position: relative;\n    border: 1px solid #253c57;\n    border-bottom: none !important; }\n    @media (max-width: 600px) {\n      .membership-box__main-block {\n        height: auto;\n        border-bottom: 1px solid #253c57 !important;\n        padding-bottom: 45px; } }\n    .membership-box__main-block_top-button {\n      position: absolute;\n      width: 80px;\n      height: 30px;\n      left: 50%;\n      transform: translateX(-50%);\n      top: -15px;\n      color: #253c57;\n      background-color: #eeff42;\n      font-size: 14px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_top-button {\n          width: 78px;\n          height: 25px;\n          top: -12px;\n          font-size: 12px; } }\n    .membership-box__main-block_header {\n      font-size: 20px;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      font-weight: bold;\n      margin-bottom: 12px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_header {\n          font-size: 18px;\n          margin-bottom: 5px; } }\n    .membership-box__main-block_price-block {\n      display: flex;\n      height: 108px;\n      margin-bottom: 20px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_price-block {\n          height: 50px;\n          align-items: flex-end;\n          margin-bottom: 3px; } }\n    .membership-box__main-block_item {\n      width: 25%;\n      font-size: 18px;\n      font-weight: bold;\n      text-align: end; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_item {\n          font-size: 14px;\n          width: 42%; } }\n    .membership-box__main-block_price {\n      width: 75%;\n      text-align: start;\n      font-size: 110px;\n      font-weight: bold;\n      margin-top: -15px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_price {\n          font-size: 40px;\n          margin-bottom: -8px;\n          width: 58%; } }\n    .membership-box__main-block_first-text {\n      display: block;\n      height: 17px;\n      font-size: 12px;\n      font-weight: bold;\n      margin-bottom: 12px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_first-text {\n          font-size: 11px;\n          margin-bottom: 22px;\n          height: 11px; } }\n    .membership-box__main-block_text {\n      display: block;\n      font-size: 14px;\n      margin-bottom: 28px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_text {\n          font-size: 12px;\n          margin-bottom: 12px; } }\n    .membership-box__main-block_small-text {\n      display: block;\n      font-size: 12px;\n      height: 16px; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_small-text {\n          font-size: 11px;\n          height: 13px;\n          margin-bottom: 16px; } }\n    .membership-box__main-block_button {\n      position: absolute;\n      bottom: 30px;\n      left: 30px;\n      width: 235px;\n      height: 48px;\n      display: inline-block;\n      text-align: center;\n      cursor: pointer;\n      font-size: 18px;\n      color: #253c57;\n      background-color: #a1c7cc;\n      border-width: 0px;\n      border-radius: 0px; }\n      .membership-box__main-block_button:hover {\n        opacity: 0.6; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_button {\n          position: relative;\n          bottom: 0;\n          left: 0;\n          width: 100%;\n          margin: auto; } }\n    .membership-box__main-block_pin {\n      display: none; }\n      @media (max-width: 600px) {\n        .membership-box__main-block_pin {\n          position: absolute;\n          bottom: 10px;\n          left: 50%;\n          transform: translateX(-50%);\n          display: inline-block;\n          border: 0;\n          cursor: pointer;\n          width: 24px;\n          height: 24px;\n          text-align: center;\n          transition: transform .4s; } }\n  .membership-box__benefit-block {\n    width: 100%;\n    height: 40%;\n    border: 1px solid #253c57;\n    padding: 30px; }\n    .membership-box__benefit-block.active {\n      display: block; }\n    @media (max-width: 600px) {\n      .membership-box__benefit-block {\n        display: none;\n        height: auto; } }\n    .membership-box__benefit-block_content {\n      display: block;\n      text-align: center;\n      font-size: 18px;\n      padding: 9px; }\n\n.main-block_best,\n.benefit-block_best {\n  background-color: #bee1e6;\n  border-left: none;\n  border-right: none; }\n  @media (max-width: 600px) {\n    .main-block_best,\n    .benefit-block_best {\n      border: 1px solid #253c57; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -34151,64 +34151,80 @@ var MobileMenu = /*#__PURE__*/function (_Component) {
 
   var _super = _createSuper(MobileMenu);
 
-  function MobileMenu() {
+  function MobileMenu(props) {
+    var _this;
+
     _classCallCheck(this, MobileMenu);
 
-    return _super.apply(this, arguments);
+    _this = _super.call(this, props);
+    _this.menuRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+    return _this;
   }
 
   _createClass(MobileMenu, [{
+    key: "handleClick",
+    value: function handleClick() {
+      var menu = this.menuRef.current;
+      menu.classList.toggle("active");
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "logo-content__mobile-menu"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "logo-content__mobile-menu_block"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "mobile-menu"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "logo-content__mobile-menu_block",
+        onClick: function onClick() {
+          return _this2.handleClick();
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "mobile-menu",
+        ref: this.menuRef
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__wrapper"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "mobile-menu__link-content "
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__close"
-      }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/login"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__link-content_item mobile-menu__log-in"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "link-content__log-in__image",
         src: "./src/images/log-in.png",
         alt: ""
       }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "link-content__log-in__text"
-      }, "Log In"), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, "Log In"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__link-content_item"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Home"), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Home"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/meet"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__link-content_item"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Meet Emily"), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Meet Emily"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/foxfit"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__link-content_item"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Fox Fit"), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Fox Fit"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/pricing"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__link-content_item"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Plans & Pricing"), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Plans & Pricing"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/contact"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mobile-menu__link-content_item"
-      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Contact"), " "), " "), " "), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Contact")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "logo-content__mobile-menu_item"
-      }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "logo-content__mobile-menu_item"
-      }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "logo-content__mobile-menu_item"
-      }), " "), " ");
+      })));
     }
   }]);
 
@@ -34291,15 +34307,27 @@ var Pricing = /*#__PURE__*/function (_Component) {
 
   var _super = _createSuper(Pricing);
 
-  function Pricing() {
+  function Pricing(props) {
+    var _this;
+
     _classCallCheck(this, Pricing);
 
-    return _super.apply(this, arguments);
+    _this = _super.call(this, props);
+    _this.benefitsRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+    return _this;
   }
 
   _createClass(Pricing, [{
+    key: "handleClick",
+    value: function handleClick() {
+      var benefits = this.benefitsRef.current;
+      benefits.classList.toggle("active");
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pricing"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -34310,7 +34338,7 @@ var Pricing = /*#__PURE__*/function (_Component) {
         className: "pricing__paragraph"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "pricing__paragraph_text"
-      }, "I tried very hard when I was making this site. Hope you enjoi it too!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      }, "I tried very hard when I was making this site. Hope you enjoi it too !")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "pricing__pricing-block"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pricing__pricing-block_wrapper"
@@ -34330,7 +34358,7 @@ var Pricing = /*#__PURE__*/function (_Component) {
         className: "membership-box__main-block_price"
       }, "30")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "membership-box__main-block_first-text"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "membership-box__main-block_text"
       }, "Short-term trial for beginners"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "membership-box__main-block_small-text"
@@ -34369,8 +34397,12 @@ var Pricing = /*#__PURE__*/function (_Component) {
       }, "Valid for 12 months"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "membership-box__main-block_button"
       }, "Select"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "membership-box__main-block_pin"
+        className: "membership-box__main-block_pin",
+        onClick: function onClick() {
+          return _this2.handleClick();
+        }
       }, "v")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        ref: this.benefitsRef,
         className: "membership-box__benefit-block benefit-block_best"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "membership-box__benefit-block_content"

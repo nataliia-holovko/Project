@@ -10,6 +10,13 @@
   top: 0;
   left: 0;
 
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+  }
+
+
 
   &__wrapper {
     width: 100%;
@@ -47,6 +54,7 @@
 
 
 
+
 .logo-content__mobile-menu {
   display: none;
 
@@ -68,13 +76,7 @@
     justify-content: space-between;
     cursor: pointer;
 
-    &:hover {
-      .mobile-menu {
-        visibility: visible;
-        opacity: 1;
-        background-color: white;
-      }
-    }
+
   }
 
   &_item {

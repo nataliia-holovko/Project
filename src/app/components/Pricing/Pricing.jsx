@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import "./Pricing.scss";
 
 export class Pricing extends Component {
+  constructor(props) {
+    super(props);
+    this.benefitsRef = React.createRef();
+  }
+  handleClick() {
+    const benefits = this.benefitsRef.current;
+    benefits.classList.toggle("active");
+  }
+
   render() {
     return (
       <div className="pricing">
@@ -10,8 +19,8 @@ export class Pricing extends Component {
         </section>
         <div className="pricing__paragraph">
           <p className="pricing__paragraph_text">
-            I tried very hard when I was making this site. Hope you enjoi it
-            too!
+            I tried very hard when I was making this site. Hope you enjoi it too
+            !
           </p>
         </div>
         <section className="pricing__pricing-block">
@@ -26,7 +35,7 @@ export class Pricing extends Component {
                     <span className="membership-box__main-block_item">$</span>
                     <span className="membership-box__main-block_price">30</span>
                   </div>
-                  <span className="membership-box__main-block_first-text"></span>
+                  <span className="membership-box__main-block_first-text"></span>{" "}
                   <span className="membership-box__main-block_text">
                     Short-term trial for beginners
                   </span>
@@ -74,9 +83,17 @@ export class Pricing extends Component {
                   <button className="membership-box__main-block_button">
                     Select
                   </button>
-                  <div className="membership-box__main-block_pin">v</div>
+                  <div
+                    className="membership-box__main-block_pin"
+                    onClick={() => this.handleClick()}
+                  >
+                    v
+                  </div>
                 </div>
-                <div className="membership-box__benefit-block benefit-block_best">
+                <div
+                  ref={this.benefitsRef}
+                  className="membership-box__benefit-block benefit-block_best"
+                >
                   <span className="membership-box__benefit-block_content">
                     I’m a benefit
                   </span>
