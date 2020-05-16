@@ -282,7 +282,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".login-menu {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 1;\n  top: 0;\n  left: 0;\n  background-color: white; }\n  .login-menu__close-btn {\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 30px;\n    height: 30px;\n    top: 60px;\n    right: 60px;\n    cursor: pointer;\n    font-size: 35px;\n    color: #807c7c; }\n  .login-menu__wrapper {\n    margin: auto;\n    width: 300px;\n    padding: 70px 10px;\n    text-align: center; }\n  .login-menu__header {\n    font-size: 36px;\n    margin-bottom: 18px;\n    color: #414141; }\n  .login-menu__text {\n    font-size: 15px;\n    margin-bottom: 60px;\n    display: inline-block;\n    color: #414141; }\n  .login-menu__link {\n    padding-left: 4px; }\n  .login-menu__web-box {\n    width: 100%; }\n    .login-menu__web-box_item {\n      padding: 0;\n      height: 48px;\n      width: 100%;\n      font-size: 14px;\n      color: #fff;\n      margin-bottom: 24px;\n      font-weight: 300;\n      cursor: pointer;\n      outline: 0;\n      background-color: #393997; }\n  .login-menu__line {\n    width: 100%;\n    height: 11px;\n    text-align: center;\n    margin: 0 auto 35px;\n    border-bottom: 1px solid #E8EAEC; }\n    .login-menu__line_text {\n      font-size: 16px;\n      color: #414141;\n      background-color: white;\n      padding: 0 13px; }\n  .login-menu__sign-up {\n    height: 48px;\n    width: 100%;\n    text-align: center;\n    border: 1px solid black; }\n", ""]);
+exports.push([module.i, ".login-menu {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 1;\n  top: 0;\n  left: 0;\n  background-color: white; }\n  .login-menu__close-btn {\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 30px;\n    height: 30px;\n    top: 60px;\n    right: 60px;\n    cursor: pointer;\n    font-size: 35px;\n    color: #807c7c; }\n    @media (max-width: 600px) {\n      .login-menu__close-btn {\n        top: 14px;\n        right: 14px; } }\n  .login-menu__wrapper {\n    margin: auto;\n    width: 300px;\n    padding: 70px 10px;\n    text-align: center; }\n  .login-menu__header {\n    font-size: 36px;\n    margin-bottom: 18px;\n    color: #414141; }\n  .login-menu__text {\n    font-size: 15px;\n    margin-bottom: 60px;\n    display: inline-block;\n    color: #414141; }\n  .login-menu__link {\n    padding-left: 4px; }\n  .login-menu__web-box {\n    width: 100%; }\n    .login-menu__web-box_item {\n      padding: 0;\n      height: 48px;\n      width: 100%;\n      font-size: 14px;\n      color: #fff;\n      margin-bottom: 24px;\n      font-weight: 300;\n      cursor: pointer;\n      outline: 0;\n      background-color: #393997; }\n  .login-menu__line {\n    width: 100%;\n    height: 11px;\n    text-align: center;\n    margin: 0 auto 35px;\n    border-bottom: 1px solid #E8EAEC; }\n    .login-menu__line_text {\n      font-size: 16px;\n      color: #414141;\n      background-color: white;\n      padding: 0 13px; }\n  .login-menu__sign-up {\n    height: 48px;\n    width: 100%;\n    text-align: center;\n    border: 1px solid black; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -34048,34 +34048,34 @@ var LogIn = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "login-menu"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "login-menu__close-btn"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/project.html"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "x"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "x"), " "), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "login-menu__wrapper"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "login-menu__header"
-      }, "Sign Up"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Sign Up"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "login-menu__text"
-      }, "Already a member? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Already a member? "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         className: "login-menu__link",
         href: ""
-      }, "Log in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, " Log in "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "login-menu__web-box"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "login-menu__web-box_item"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "login-menu__web-box_item"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "login-menu__line"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "login-menu__line_text"
-      }, "or")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      }, "or"), " "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "login-menu__sign-up",
         type: "text",
         placeholder: "Sign up with email"
-      })));
+      }), " "), " ");
     }
   }]);
 
