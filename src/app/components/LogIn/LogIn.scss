@@ -1,0 +1,92 @@
+.login-menu {
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+
+    &__close-btn {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        top: 60px;
+        right: 60px;
+        cursor: pointer;
+        font-size: 35px;
+        color: #807c7c;
+    }
+
+
+    &__wrapper {
+        margin: auto;
+        width: 300px;
+        padding: 70px 10px;
+        text-align: center;
+    }
+
+    &__header {
+        font-size: 36px;
+        margin-bottom: 18px;
+        color: #414141;
+    }
+
+    &__text {
+        font-size: 15px;
+        margin-bottom: 60px;
+        display: inline-block;
+        color: #414141;
+    }
+
+    &__link {
+        padding-left: 4px;
+    }
+
+    &__web-box {
+        width: 100%;
+
+        &_item {
+            padding: 0;
+            height: 48px;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 24px;
+            font-weight: 300;
+            cursor: pointer;
+            outline: 0;
+            background-color: rgb(57,
+                    57,
+                    151);
+        }
+    }
+
+    &__line {
+        width: 100%;
+        height: 11px;
+        text-align: center;
+        margin: 0 auto 35px;
+        border-bottom: 1px solid #E8EAEC;
+
+        &_text {
+            font-size: 16px;
+            color: #414141;
+            background-color: rgba(255, 255, 255, 1);
+            padding: 0 13px;
+        }
+    }
+
+    &__sign-up {
+
+        height: 48px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+    }
+}

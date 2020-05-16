@@ -271,6 +271,24 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/components/LogIn/LogIn.scss":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/components/LogIn/LogIn.scss ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".login-menu {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 2;\n  top: 0;\n  left: 0;\n  background-color: white; }\n  .login-menu__close-btn {\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 30px;\n    height: 30px;\n    top: 60px;\n    right: 60px;\n    cursor: pointer;\n    font-size: 35px;\n    color: #807c7c; }\n  .login-menu__wrapper {\n    margin: auto;\n    width: 300px;\n    padding: 70px 10px;\n    text-align: center; }\n  .login-menu__header {\n    font-size: 36px;\n    margin-bottom: 18px;\n    color: #414141; }\n  .login-menu__text {\n    font-size: 15px;\n    margin-bottom: 60px;\n    display: inline-block;\n    color: #414141; }\n  .login-menu__link {\n    padding-left: 4px; }\n  .login-menu__web-box {\n    width: 100%; }\n    .login-menu__web-box_item {\n      padding: 0;\n      height: 48px;\n      width: 100%;\n      font-size: 14px;\n      color: #fff;\n      margin-bottom: 24px;\n      font-weight: 300;\n      cursor: pointer;\n      outline: 0;\n      background-color: #393997; }\n  .login-menu__line {\n    width: 100%;\n    height: 11px;\n    text-align: center;\n    margin: 0 auto 35px;\n    border-bottom: 1px solid #E8EAEC; }\n    .login-menu__line_text {\n      font-size: 16px;\n      color: #414141;\n      background-color: white;\n      padding: 0 13px; }\n  .login-menu__sign-up {\n    height: 48px;\n    width: 100%;\n    text-align: center;\n    border: 1px solid black; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/components/MeetEmily/MeetEmily.scss":
 /*!**********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/components/MeetEmily/MeetEmily.scss ***!
@@ -33976,6 +33994,125 @@ module.exports = exported;
 
 /***/ }),
 
+/***/ "./src/app/components/LogIn/LogIn.jsx":
+/*!********************************************!*\
+  !*** ./src/app/components/LogIn/LogIn.jsx ***!
+  \********************************************/
+/*! exports provided: LogIn */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogIn", function() { return LogIn; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LogIn_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LogIn.scss */ "./src/app/components/LogIn/LogIn.scss");
+/* harmony import */ var _LogIn_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_LogIn_scss__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var LogIn = /*#__PURE__*/function (_Component) {
+  _inherits(LogIn, _Component);
+
+  var _super = _createSuper(LogIn);
+
+  function LogIn() {
+    _classCallCheck(this, LogIn);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(LogIn, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "login-menu"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "login-menu__close-btn"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "x")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "login-menu__wrapper"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "login-menu__header"
+      }, "Sign Up"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "login-menu__text"
+      }, "Already a member? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "login-menu__link",
+        href: ""
+      }, "Log in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "login-menu__web-box"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "login-menu__web-box_item"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "login-menu__web-box_item"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "login-menu__line"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "login-menu__line_text"
+      }, "or")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "login-menu__sign-up",
+        type: "text",
+        placeholder: "Sign up with email"
+      })));
+    }
+  }]);
+
+  return LogIn;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/***/ }),
+
+/***/ "./src/app/components/LogIn/LogIn.scss":
+/*!*********************************************!*\
+  !*** ./src/app/components/LogIn/LogIn.scss ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./LogIn.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/components/LogIn/LogIn.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
 /***/ "./src/app/components/MeetEmily/MeetEmily.jsx":
 /*!****************************************************!*\
   !*** ./src/app/components/MeetEmily/MeetEmily.jsx ***!
@@ -34338,7 +34475,7 @@ var Pricing = /*#__PURE__*/function (_Component) {
         className: "pricing__paragraph"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "pricing__paragraph_text"
-      }, "I tried very hard when I was making this site. Hope you enjoi it too !")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      }, "I tried very hard when I was making this project. Hope you enjoi it too !")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "pricing__pricing-block"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pricing__pricing-block_wrapper"
@@ -34668,6 +34805,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MeetEmily_MeetEmily_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/MeetEmily/MeetEmily.jsx */ "./src/app/components/MeetEmily/MeetEmily.jsx");
 /* harmony import */ var _components_FoxFit_FoxFit_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/FoxFit/FoxFit.jsx */ "./src/app/components/FoxFit/FoxFit.jsx");
 /* harmony import */ var _components_Pricing_Pricing_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Pricing/Pricing.jsx */ "./src/app/components/Pricing/Pricing.jsx");
+/* harmony import */ var _components_LogIn_LogIn_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/LogIn/LogIn.jsx */ "./src/app/components/LogIn/LogIn.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -34689,6 +34827,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -34725,7 +34864,9 @@ var App = /*#__PURE__*/function (_React$Component) {
         path: "/foxfit"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FoxFit_FoxFit_jsx__WEBPACK_IMPORTED_MODULE_7__["FoxFit"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         path: "/pricing"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Pricing_Pricing_jsx__WEBPACK_IMPORTED_MODULE_8__["Pricing"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_4__["Footer"], null)))];
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Pricing_Pricing_jsx__WEBPACK_IMPORTED_MODULE_8__["Pricing"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        path: "/login"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_LogIn_LogIn_jsx__WEBPACK_IMPORTED_MODULE_9__["LogIn"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_4__["Footer"], null)))];
     }
   }]);
 

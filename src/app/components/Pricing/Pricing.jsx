@@ -19,8 +19,8 @@ export class Pricing extends Component {
         </section>
         <div className="pricing__paragraph">
           <p className="pricing__paragraph_text">
-            I tried very hard when I was making this site. Hope you enjoi it too
-            !
+            I tried very hard when I was making this project. Hope you enjoi it
+            too !
           </p>
         </div>
         <section className="pricing__pricing-block">

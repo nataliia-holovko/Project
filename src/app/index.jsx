@@ -12,6 +12,7 @@ import { Home } from "./components/Home/Home.jsx";
 import { MeetEmily } from "./components/MeetEmily/MeetEmily.jsx";
 import { FoxFit } from "./components/FoxFit/FoxFit.jsx";
 import { Pricing } from "./components/Pricing/Pricing.jsx";
+import { LogIn } from "./components/LogIn/LogIn.jsx";
 
 class App extends React.Component {
   render() {
@@ -31,6 +32,9 @@ class App extends React.Component {
             </Route>
             <Route path="/pricing">
               <Pricing />
+            </Route>
+            <Route path="/login">
+              <LogIn />
             </Route>
           </main>
           <Footer />
