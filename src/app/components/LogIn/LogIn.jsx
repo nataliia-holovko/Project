@@ -7,7 +7,9 @@ export class LogIn extends Component {
     return (
       <section className="login-menu">
         <div className="login-menu__close-btn">
-          <span>x</span>
+          <a href="/project.html">
+            <span>x</span>
+          </a>
         </div>
         <div className="login-menu__wrapper">
           <h1 className="login-menu__header">Sign Up</h1>
